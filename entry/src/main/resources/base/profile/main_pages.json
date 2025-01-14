@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/search/SearchPage",
+    "pages/liaotian/ChatPage",
+    "pages/erweima/MyQrCodePage",
+    "pages/WeiChatLogin",
+    "pages/MainPage01",
+    "pages/pyq",
+    "pages/VidioPage",
+    "pages/WeiChatRegister",
+    "pages/Play/Play",
+    "pages/Index/Index"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001857B4E5F3F6D71C07C646FF748ECA7AFA8C047A0DE5282B4FCCF94611E70C9724A3EEFA53",
+          "certpath": "C:/Users/赵建华/Desktop/wechar22.cer",
+          "keyAlias": "zjh12345",
+          "keyPassword": "000000184C37DA69E0090599549E7CE938A9104125498EFA18AAB79934124320588AC3D2CCC28E59",
+          "profile": "D:/wechat222Release.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/赵建华/Desktop/.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
